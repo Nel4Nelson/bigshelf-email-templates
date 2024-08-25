@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the BigShelf Affiliate Family!</title>
+    <!--[if !mso]><!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--<![endif]-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+      body {
+        margin: 0;
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        line-height: 140%;
+        line-height: 1.6;
+        background-color: #eee;
+        color: #3e4b52;
+      }
+      .parent-container {
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+      }
+      .container {
+        background-color: white;
+        border: 1px solid #e0e0e0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 30px;
+        margin-top: -60px;
+        position: relative;
+        z-index: 2;
+      }
+      h1 {
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        color: #1e1e1e;
+        font-size: 32px;
+        line-height: 140%;
+        font-weight: 700;
+        margin-top: 0;
+      }
+      .image-placeholder {
+        border-radius: 5px;
+        border: 1px solid #fff;
+        background: radial-gradient(
+            50.56% 50.56% at 49.94% 108.14%,
+            rgba(220, 255, 251, 0.28) 0%,
+            rgba(245, 245, 245, 0.5) 100%
+          ),
+          rgba(245, 245, 245, 0.8);
+        box-shadow: 0px 4px 11.9px 0px #fff inset;
+        backdrop-filter: blur(4.900000095367432px);
+      }
+      .image-wrapper {
+        display: flex;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      table th {
+        text-align: left;
+      }
+      table {
+        width: 100%;
+      }
+      th {
+        color: #898989;
+        font-weight: 500;
+      }
+      td {
+        color: #272829;
+        border-bottom: 1px solid #8989894d;
+        border-collapse: collapse;
+        padding-top: 12px;
+        padding-bottom: 20px;
+      }
+      .border-b {
+        border-bottom: 1px solid #8989894d;
+      }
+      .signature {
+        margin-top: 20px;
+      }
+      .text-primary {
+        color: #272829;
+      }
+      button {
+        width: 100%;
+        border-radius: 12px;
+        background: #255c6f;
+        box-shadow: 0px 8px 0px 0px #1a3340;
+        display: flex;
+        height: 51px;
+        padding: 13px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+      }
+      .w-124 {
+        width: 124px;
+        display: inline-block;
+      }
+      .spacing {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .order-id {
+        display: flex;
+        height: 51px;
+        padding: 13px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 12px;
+        border: 1px solid #000;
+        box-shadow: 0px 4px 0px 0px #1a3340;
+        color: #1a3340;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 20px;
+        background-color: #f0f0f0; /* Light background to highlight */
+        cursor: text; /* Indicates it's selectable text */
+      }
+      .copy-instruction {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent-container">
+      <img
+        src="assets/NewsletterCover.svg"
+        alt="BigShelf Newsletter banner"
+        width="600"
+        style="max-width: 100%; height: auto; position: relative; z-index: 1"
+      />
+      <div class="container">
+        <h1>New Order Received on BigShelf!</h1>
+        <p>
+          A new order has just been placed on BigShelf! Here are the details:
+        </p>
+
+        <div class="image-placeholder">
+          <div class="image-wrapper">
+            <img src="assets/orderBag.png" alt="" />
+          </div>
+        </div>
+
+        <h2 class="text-primary">Order Summary</h2>
+        <table>
+          <tr>
+            <th class="border-b">ITEMS</th>
+            <th class="border-b">QUANTITY</th>
+            <th class="border-b">PRICE</th>
+          </tr>
+          <tr>
+            <td>Book Title 1</td>
+            <td>1</td>
+            <td>N3,000</td>
+          </tr>
+          <tr>
+            <td>Book Title 2</td>
+            <td>4</td>
+            <td>N54,000</td>
+          </tr>
+          <tr>
+            <th colspan="2"></th>
+            <th class="text-primary" style="font-weight: 600">N57,000</th>
+          </tr>
+        </table>
+
+        <div class="spacing">
+          <div>
+            <h2 class="text-primary">Order Id</h2>
+            <div class="order-id">
+              <p>019B853</p>
+            </div>
+            <p class="copy-instruction">Select and copy the Order ID above</p>
+          </div>
+          <div>
+            <h2 class="text-primary">Shipping Information</h2>
+            <p><span class="w-124">Address</span> [Shipping Address]</p>
+            <p><span class="w-124">Phone</span> [Phone]</p>
+          </div>
+          <button>Manage order</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
